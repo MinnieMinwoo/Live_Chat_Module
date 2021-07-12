@@ -17,7 +17,7 @@ namespace ChatClient
                 client = new TcpClient();
                 client.Connect("127.0.0.1", 34624);
 
-                // GetStream을 사용하여 서버 내부의 데이터를 가져옵니다. NetworkStream을 가져온 후에는 보내고 받는다.
+                // GetStream을 사용하여 서버 내부의 데이터를 가져옵니다.
                 NetworkStream stream = client.GetStream();
                 // 인코딩 형식을 선택합니다.
                 Encoding encode = Encoding.GetEncoding("utf-8");
