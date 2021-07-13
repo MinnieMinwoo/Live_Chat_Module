@@ -27,7 +27,7 @@ namespace ChatClient
                 StreamReader readFromServer = new StreamReader(stream, encode);
 
                 // 콘솔의 문자를 읽어들입니다. 데이터는 서버로 전송됩니다.
-                // string dataToServer = Console.ReadLine();
+                string dataToServer = Console.ReadLine();
 
                 // 데이터를 읽고 쓰는 과정을 반복합니다.
                 while (true)
